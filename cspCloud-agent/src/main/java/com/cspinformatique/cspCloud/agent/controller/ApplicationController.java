@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.controller;
+package com.cspinformatique.cspCloud.agent.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
+import com.cspinformatique.cspCloud.agent.service.ApplicationService;
 import com.cspinformatique.cspCloud.commons.entity.Application;
-import com.cspinformatique.cspCloud.server.service.ApplicationService;
 
 @Controller
 @RequestMapping("/applications")

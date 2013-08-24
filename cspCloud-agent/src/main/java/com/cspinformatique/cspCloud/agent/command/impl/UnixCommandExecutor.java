@@ -1,10 +1,10 @@
-package com.cspinformatique.cspCloud.server.command.impl;
+package com.cspinformatique.cspCloud.agent.command.impl;
 
 import java.io.IOException;
 
 import org.springframework.stereotype.Component;
 
-import com.cspinformatique.cspCloud.server.command.CommandExecutor;
+import com.cspinformatique.cspCloud.agent.command.CommandExecutor;
 
 @Component
 public class UnixCommandExecutor implements CommandExecutor {

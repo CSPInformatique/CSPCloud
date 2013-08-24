@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.service.impl;
+package com.cspinformatique.cspCloud.agent.service.impl;
 
 import java.util.ArrayList;
 

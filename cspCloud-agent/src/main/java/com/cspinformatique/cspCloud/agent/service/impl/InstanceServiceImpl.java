@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.service.impl;
+package com.cspinformatique.cspCloud.agent.service.impl;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,13 +14,13 @@ import org.springframework.stereotype.Component;
 
 import com.cspinformatique.commons.util.FileUtil;
 import com.cspinformatique.commons.util.SigarUtil;
+import com.cspinformatique.cspCloud.agent.command.CommandExecutor;
+import com.cspinformatique.cspCloud.agent.params.Params;
+import com.cspinformatique.cspCloud.agent.service.InstanceService;
+import com.cspinformatique.cspCloud.agent.service.ProcessService;
 import com.cspinformatique.cspCloud.commons.entity.Instance;
 import com.cspinformatique.cspCloud.commons.entity.Process;
 import com.cspinformatique.cspCloud.commons.entity.ServerPort;
-import com.cspinformatique.cspCloud.server.command.CommandExecutor;
-import com.cspinformatique.cspCloud.server.params.Params;
-import com.cspinformatique.cspCloud.server.service.InstanceService;
-import com.cspinformatique.cspCloud.server.service.ProcessService;
 
 @Component
 public class InstanceServiceImpl implements InstanceService {

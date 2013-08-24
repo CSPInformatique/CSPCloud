@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.params;
+package com.cspinformatique.cspCloud.agent.params;
 
 public interface Params {
 	public String getApplicationConfFolder();

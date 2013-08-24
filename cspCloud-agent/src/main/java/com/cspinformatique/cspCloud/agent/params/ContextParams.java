@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.params;
+package com.cspinformatique.cspCloud.agent.params;
 
 import javax.annotation.PostConstruct;
 import javax.servlet.ServletContext;

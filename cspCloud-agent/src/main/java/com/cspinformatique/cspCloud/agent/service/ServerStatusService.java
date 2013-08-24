@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.service;
+package com.cspinformatique.cspCloud.agent.service;
 
 public interface ServerStatusService {
 	public Integer getAverageCpuUsage();

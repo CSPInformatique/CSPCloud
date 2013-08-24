@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.service.impl;
+package com.cspinformatique.cspCloud.agent.service.impl;
 
 import java.io.File;
 
@@ -8,11 +8,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.cspinformatique.commons.util.FileUtil;
 import com.cspinformatique.commons.util.ZipUtil;
+import com.cspinformatique.cspCloud.agent.params.Params;
+import com.cspinformatique.cspCloud.agent.service.DeploymentService;
+import com.cspinformatique.cspCloud.agent.service.InstanceService;
 import com.cspinformatique.cspCloud.commons.entity.Application;
 import com.cspinformatique.cspCloud.commons.entity.Deployment;
-import com.cspinformatique.cspCloud.server.params.Params;
-import com.cspinformatique.cspCloud.server.service.DeploymentService;
-import com.cspinformatique.cspCloud.server.service.InstanceService;
 
 @Component
 @Transactional

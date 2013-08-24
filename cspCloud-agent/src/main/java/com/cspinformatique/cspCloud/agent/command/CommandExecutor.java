@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.command;
+package com.cspinformatique.cspCloud.agent.command;
 
 public interface CommandExecutor {
 	public void killProcess(long processId);

@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.service.impl;
+package com.cspinformatique.cspCloud.agent.service.impl;
 
 import java.io.File;
 import java.net.InetAddress;
@@ -14,14 +14,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.cspinformatique.commons.util.FileUtil;
 import com.cspinformatique.commons.util.RestUtil;
+import com.cspinformatique.cspCloud.agent.params.Params;
+import com.cspinformatique.cspCloud.agent.service.ProcessService;
+import com.cspinformatique.cspCloud.agent.service.ServerService;
+import com.cspinformatique.cspCloud.agent.service.ServerStatusService;
 import com.cspinformatique.cspCloud.commons.entity.Process;
 import com.cspinformatique.cspCloud.commons.entity.Server;
 import com.cspinformatique.cspCloud.commons.entity.ServerStats;
 import com.cspinformatique.cspCloud.commons.rest.CSPCRestTemplate;
-import com.cspinformatique.cspCloud.server.params.Params;
-import com.cspinformatique.cspCloud.server.service.ProcessService;
-import com.cspinformatique.cspCloud.server.service.ServerService;
-import com.cspinformatique.cspCloud.server.service.ServerStatusService;
 
 @Component
 @Transactional

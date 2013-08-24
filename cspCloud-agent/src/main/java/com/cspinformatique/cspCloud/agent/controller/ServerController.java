@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.controller;
+package com.cspinformatique.cspCloud.agent.controller;
 
 import java.util.HashMap;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.cspinformatique.cspCloud.agent.service.ServerService;
 import com.cspinformatique.cspCloud.commons.entity.ServerStats;
-import com.cspinformatique.cspCloud.server.service.ServerService;
 
 @Controller
 @RequestMapping("/server")

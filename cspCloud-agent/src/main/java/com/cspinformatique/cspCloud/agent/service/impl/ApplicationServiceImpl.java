@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.service.impl;
+package com.cspinformatique.cspCloud.agent.service.impl;
 
 import java.io.File;
 
@@ -7,9 +7,10 @@ import org.springframework.stereotype.Component;
 
 import com.cspinformatique.commons.util.FileUtil;
 import com.cspinformatique.commons.util.ZipUtil;
+import com.cspinformatique.cspCloud.agent.params.Params;
+import com.cspinformatique.cspCloud.agent.service.ApplicationService;
 import com.cspinformatique.cspCloud.commons.entity.Application;
-import com.cspinformatique.cspCloud.server.params.Params;
-import com.cspinformatique.cspCloud.server.service.ApplicationService;
+
 
 @Component
 public class ApplicationServiceImpl implements ApplicationService {	

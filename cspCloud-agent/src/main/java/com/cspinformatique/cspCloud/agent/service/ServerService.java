@@ -1,4 +1,4 @@
-package com.cspinformatique.cspCloud.server.service;
+package com.cspinformatique.cspCloud.agent.service;
 
 import com.cspinformatique.cspCloud.commons.entity.ServerStats;
 
