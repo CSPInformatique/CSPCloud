@@ -10,6 +10,7 @@
 	<modules>
 		<module>cspCloud-commons</module>
 		<module>cspCloud-agent</module>
+		<module>cspCloud-server</module>
 	</modules>
 	<build>
 		<plugins>
