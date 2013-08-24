@@ -1,0 +1,12 @@
+.classpath
+.project
+
+/*/.classpath
+
+
+/.settings/**
+/target/**
+
+/*/.settings/**
+/*/target/**
+**.DS_Store
